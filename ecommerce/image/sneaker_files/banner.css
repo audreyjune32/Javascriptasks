@@ -1,0 +1,47 @@
+/* Banner layout styles */
+.bannerContent {
+    padding: 18px 22px 24px;
+}
+
+.bannerContent__description {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 6px 0 12px;
+    word-wrap: break-word;
+}
+
+.bannerContent__buttonContainer {
+    height: 36px;
+}
+
+.bannerContent__subscribeButton {
+    display: block;
+}
+
+.bannerContent__closeButton {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.bannerContent__closeButton::before,
+.bannerContent__closeButton::after {
+    content: '';
+    background-color: #414141;
+    position: absolute;
+    left: 14px;
+    height: 14px;
+    top: 8px;
+    width: 2px;
+}
+
+.bannerContent__closeButton::before {
+    transform: rotate(45deg);
+}
+
+.bannerContent__closeButton::after {
+    transform: rotate(-45deg);
+}

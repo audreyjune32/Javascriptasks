@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dynamic Styles and Text</title>
+  <link rel="stylesheet" href="plp.css" />
+</head>
+<body>
+  <header>
+    <h1 id="main-heading">Welcome to the Dynamic Page!</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="text-content">This is a sample paragraph. Try changing me!</p>
+
+      <div class="controls">
+        <button onclick="changeText()">Change Text</button>
+        <button onclick="toggleTheme()">Toggle Theme</button>
+        <button onclick="makeUppercase()">UPPERCASE</button>
+        <button onclick="makeLowercase()">lowercase</button>
+        <button onclick="capitalizeText()">Capitalize</button>
+        <input type="color" id="textColorPicker" title="Pick Text Color">
+        <input type="range" id="fontSizeSlider" min="14" max="48" value="16" />
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><b>ENJOYYYYY!!!!!!!!!!!!</p>
+  </footer>
+
+  <script src="plp.js"></script>
+</body>
+</html>

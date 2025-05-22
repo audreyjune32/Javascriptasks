@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f0f4f8;
+    color: #333;
+  }
+  
+  h1, h2 {
+    color: #2c3e50;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #hoverText {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    width: fit-content;
+    user-select: none;
+  }
+  
+  .tabs {
+    margin-top: 20px;
+  }
+  
+  .tab-btn {
+    background-color: #bdc3c7;
+    color: #2c3e50;
+  }
+  
+  .tab-btn.active {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .tab-content {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9em;
+    margin-left: 10px;
+  }
+  

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple E-Commerce</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>My Store</h1>
+    <nav>
+      <a href="index.html" class="active">Products</a>
+      <a href="cart.html">Cart (<span id="cartCount">0</span>)</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="products">
+      <article class="product" data-id="1" data-name="T-shirt" data-price="20">
+        <h2>T-shirt</h2>
+        
+        <p>Comfortable cotton t-shirt.</p>
+        <p>Price: $20</p>
+        <button class="addToCartBtn">Add to Cart</button>
+      </article>
+
+      <article class="product" data-id="2" data-name="Sneakers" data-price="50">
+        <h2>Sneakers</h2>
+        <p>Stylish running shoes.</p>
+        <p>Price: $50</p>
+        <button class="addToCartBtn">Add to Cart</button>
+      </article>
+
+      <article class="product" data-id="3" data-name="Backpack" data-price="35">
+        <h2>Backpack</h2>
+        <p>Durable and spacious backpack.</p>
+        <p>Price: $35</p>
+        <button class="addToCartBtn">Add to Cart</button>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 My Store. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

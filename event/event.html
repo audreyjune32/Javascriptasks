@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JAVASCRIPT EVENT HANDLING</title>
+  <link rel="stylesheet" href="event.css" />
+</head>
+<body>
+
+  <h1>Welcome to JAVASCRIPT event handling</h1>
+
+  <!-- Event Handling -->
+  <section>
+    <h2>Event Handling </h2>
+    <button id="colorBtn">JAVASCRIPT</button>
+    <p id="hoverText">Hover over me!</p>
+    <input type="text" id="keyInput" placeholder="Type here and watch console..." />
+  </section>
+
+  <!-- Interactive Elements -->
+  <section>
+    <h2>Interactive Elements </h2>
+
+    <!-- Simple Tabs -->
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="1">Tab 1</button>
+      <button class="tab-btn" data-tab="2">Tab 2</button>
+      <button class="tab-btn" data-tab="3">Tab 3</button>
+    </div>
+    <div class="tab-content active" data-tab="1">Content for Tab 1</div>
+    <div class="tab-content" data-tab="2">Content for Tab 2</div>
+    <div class="tab-content" data-tab="3">Content for Tab 3</div>
+  </section>
+
+  <!-- Form Validation -->
+  <section>
+    <h2>Form Validation </h2>
+    <form id="signupForm" novalidate>
+      <label>
+        Email:
+        <input type="email" id="email" required placeholder="you@example.com" />
+        <span class="error" id="emailError"></span>
+      </label>
+      <br />
+      <label>
+        Password:
+        <input type="password" id="password" required minlength="8" placeholder="At least 8 chars" />
+        <span class="error" id="passError"></span>
+      </label>
+      <br />
+      <button type="submit">Sign Up</button>
+    </form>
+  </section>
+
+  <script src="event.js"></script>
+</body>
+</html>
